@@ -7,7 +7,7 @@ import (
 	"os"
 
 	hue "github.com/collinux/gohue"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 func generateConfig(outputFile *string) {

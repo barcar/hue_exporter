@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"gopkg.in/alecthomas/kingpin.v2"
-	"gopkg.in/yaml.v2"
+	"github.com/alecthomas/kingpin/v2"
+	"gopkg.in/yaml.v3"
 
 	hue "github.com/collinux/gohue"
 	"github.com/prometheus/client_golang/prometheus"
